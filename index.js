@@ -30,7 +30,7 @@ app.get('/signup',(req,res)=>{
 })
 
 app.get('/about',(req,res)=>{
-    res.json.send(jsonData)
+    res.json(jsonData)
 })
 
 app.listen(port,()=>{
